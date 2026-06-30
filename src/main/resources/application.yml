@@ -5,8 +5,8 @@
 # ════════════════════════════════════════════════════════════
 
 server:
-  port: 8089
-
+  port: ${PORT:8089}
+  
 spring:
   application:
     name: ms-resenas
