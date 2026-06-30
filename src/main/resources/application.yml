@@ -10,6 +10,8 @@ server:
 spring:
   application:
     name: ms-resenas
+  main:
+    allow-bean-definition-overriding: true
 
 # Registro en Eureka
 eureka:
